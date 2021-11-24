@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{42F574B1-4806-4DE7-9926-01B803D90E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing", "Ticketing\Ticketing.csproj", "{27778E75-D9F7-40E6-A350-2291DF8C3A4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{92378F6B-C131-40FF-ACA7-47B7633CD6E5}"
+	ProjectSection(SolutionItems) = preProject
+		components\pubsub.yaml = components\pubsub.yaml
+		components\statestore.yaml = components\statestore.yaml
+		TODO.txt = TODO.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficGenerator", "TrafficGenerator\TrafficGenerator.csproj", "{F3B5107C-841D-49E1-A1C7-4EC540CF8647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficMonitoring", "TrafficMonitoring\TrafficMonitoring.csproj", "{25BB9789-1B9A-4AB1-8D47-AC984F8FEEB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invoicing", "Invoicing\Invoicing.csproj", "{D1907B76-2090-48A1-9EF9-8711C2CF7565}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42F574B1-4806-4DE7-9926-01B803D90E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F574B1-4806-4DE7-9926-01B803D90E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F574B1-4806-4DE7-9926-01B803D90E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F574B1-4806-4DE7-9926-01B803D90E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27778E75-D9F7-40E6-A350-2291DF8C3A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27778E75-D9F7-40E6-A350-2291DF8C3A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27778E75-D9F7-40E6-A350-2291DF8C3A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27778E75-D9F7-40E6-A350-2291DF8C3A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B5107C-841D-49E1-A1C7-4EC540CF8647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B5107C-841D-49E1-A1C7-4EC540CF8647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B5107C-841D-49E1-A1C7-4EC540CF8647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B5107C-841D-49E1-A1C7-4EC540CF8647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25BB9789-1B9A-4AB1-8D47-AC984F8FEEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BB9789-1B9A-4AB1-8D47-AC984F8FEEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BB9789-1B9A-4AB1-8D47-AC984F8FEEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BB9789-1B9A-4AB1-8D47-AC984F8FEEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1907B76-2090-48A1-9EF9-8711C2CF7565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1907B76-2090-48A1-9EF9-8711C2CF7565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1907B76-2090-48A1-9EF9-8711C2CF7565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1907B76-2090-48A1-9EF9-8711C2CF7565}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

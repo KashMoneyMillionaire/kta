@@ -1,0 +1,6 @@
+{"container":"redis_6d6978bb-1"}
+{"container":"placement_f0ae81b2-8"}
+{"container":"web-proxy_53e65246-5"}
+{"container":"ticketing-proxy_16aab58b-e"}
+{"container":"web-dapr-proxy_62cf63b8-f"}
+{"container":"ticketing-dapr-proxy_bb460750-e"}

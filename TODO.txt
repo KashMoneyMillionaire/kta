@@ -1,0 +1,16 @@
+UI
+ - Add toggles for traffic generation
+    - Traffic Rate
+    - Speed Range and distribution
+    - % speeding
+ - Live tracking of traffic (SignalR)
+    - Show traffic coming through
+    - Show top 5 most recent speeders
+    - Show top 5 highest speeds over last X hours (ksql?)
+    
+
+Dapr Operations (https://docs.dapr.io/operations/)
+ - Observability
+ - Hosting (Azure Container Apps)
+ - Project Tye
+ 
